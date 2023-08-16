@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/openai@0.27.0/dist/openai.min.js"></script>
+    <title>Bryan</title>
+</head>
+<body>
+<div class="container">
+    <div style="margin: 30px;">
+    <h1 style="text-align: center;">B.R.Y.A.N</h1>
+    </div>
+    <input type="text" style="border: 0px solid; height: 50px; width: 30%; background-color: rgba(128, 128, 128, 0); margin: 50px; color: rgb(114, 114, 114); border-bottom: 2px solid gray; text-align: center;" disabled id="general">
+    <div style="margin: 30px; width: 100%; display: flex; align-items: center; flex-direction: column;">
+        <h2 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 100;">Something you wanna ask?
+        </h2>
+
+        <button class="qsbtn" id="sendbtn" onclick="sprecog()">Start</button>
+    </div>
+</div>
+     
+    <script src="scripts.js"></script>
+</body>
+</html>
